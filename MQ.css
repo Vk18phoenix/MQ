@@ -1,0 +1,44 @@
+img{
+    height: 450px;
+    width: 300px;     
+}
+.anc{
+    background-color: palevioletred;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+     background-color: rgb(147, 6, 147);
+   
+}
+p,span{
+    background-color: aquamarine;
+}
+*{
+    background-color: indigo;
+}
+@media screen and (min-width:786px) {
+
+    .con{
+        background-color: forestgreen;
+    }
+    .anc{
+        background-color: lightcoral;
+        gap: 5px;
+    }
+    img{
+        height: 225px;
+        width: 150px;  
+    }
+    p,span{
+    background-color: pink;
+}
+    *{
+        background-color: rgb(162, 87, 66);
+    }
+}
